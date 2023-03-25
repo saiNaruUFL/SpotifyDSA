@@ -97,6 +97,9 @@ export function authorize() {
 
 export async function getAccessToken(code) {
   
+    //Probably have to replace these values with your own spotify developer codes
+    //Make an spotify developer account and replace these values 
+    //https://developer.spotify.com/dashboard/login
     const clientId = 'fd13ae26a51f4eb1b6348b31d4a41eca';
     const clientSecret = 'd7a9efebd50d445f8d13e80d613d463a';
     const redirectUri = 'http://localhost:3000/main'; // or your production URL
